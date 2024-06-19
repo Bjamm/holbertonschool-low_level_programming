@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
-*main - lelo
+*main - Entry point
 *Description: lelo
-*Return: lelo
+*Return: Always 0
 */
 int main(void)
 {
