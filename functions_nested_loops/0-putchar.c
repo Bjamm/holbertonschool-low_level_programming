@@ -2,7 +2,6 @@
 
 /**
 *main - Entry point
-*Description: lelo
 *Return: Always 0
 */
 int main(void)
