@@ -1,4 +1,4 @@
-#include <inistd.h>
+#include <unistd.h>
 /**
  * _putchar - hehehe
  * @c: character
