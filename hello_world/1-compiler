@@ -1,2 +1,2 @@
-#include <stdio.h>
+#include "main.h"
 gcc -c $CFILE
