@@ -10,7 +10,7 @@ int main(void)
 	int (b);
 	long int (c);
 	long long int (d);
-	float (f);
+	float (f);If you are using a linux on Vagrant you might have to install the package libc6-dev-i386 to test the -m32 gcc option
 
 printf("Size of char: %lu byte(s)\n", (unsigned long)sizeof(a));
 printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
