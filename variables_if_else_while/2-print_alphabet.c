@@ -1,19 +1,19 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * REturn: Always 0 (Success)
+ *
+ * Return: (0)
+ *
  */
-
 int main(void)
 {
-	char c;
+	char alphabets = 'a';
 
-	c = 'a';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
+	while (alphabets <= 'z')
+	{
+		putchar(alphabets);
+		alphabets++;
+	}
 	putchar('\n');
 	return (0);
 }
