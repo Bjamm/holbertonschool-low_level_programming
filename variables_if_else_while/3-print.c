@@ -6,18 +6,16 @@
  */
 int main(void)
 {
-	char lowerbet = 'a';
-	char alphabet = 'A';
+	char lowerbet;
+	char alphabet;
 
-	while (lowerbet <= 'z')
+	for (lowerbet = 'a'; lowerbet <= 'z'; lowerbet++)
 	{
 		putchar(lowerbet);
-		lowerbet++;
 	}
-	while (alphabet <= 'z')
+	for (alphabet = 'A'; alphabet <= 'z'; alphabet++)
 	{
 		putchar(alphabet);
-		alphabet++;
 	}
 	putchar('\n');
 	return (0);
