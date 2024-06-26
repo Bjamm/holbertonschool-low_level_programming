@@ -1,27 +1,24 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ * Return: Always (0)
+ *
  */
-
 int main(void)
 {
-	char c;
+	char lowerbet = 'a';
+	char alphabet = 'A';
 
-	char d;
-
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'z') {
-			putchar (d);
-			d++;
-		}
+	while (lowerbet <= 'z')
+	{
+		putchar(lowerbet);
+		lowerbet++;
+	}
+	while (alphabet <= 'z')
+	{
+		putchar(alphabet);
+		alphabet++;
+	}
 	putchar('\n');
 	return (0);
 }
